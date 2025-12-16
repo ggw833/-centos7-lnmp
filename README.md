@@ -114,7 +114,7 @@ sudo yum-config-manager –enable remi-php74
  
 
 然后，安装 PHP 7.4 及相关扩展（WordPress 所需的常见扩展，如  php – mysqlnd 、 php – gd 、 php – xml  等）：
-bash
+
 sudo yum install -y php php – mysqlnd php – gd php – xml php – mbstring
  
 
