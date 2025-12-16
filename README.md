@@ -67,6 +67,7 @@ gpgcheck=1
 enabled=1 
 gpgkey=https://nginx.org/keys/nginx_signing.key 
 module_hotfixes=true
+
 安装Nginx
    yum install nginx -y
    启动Nginx并设置开机自启
